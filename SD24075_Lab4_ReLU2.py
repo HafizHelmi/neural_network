@@ -25,7 +25,7 @@ calculated_y = np.maximum(0, selected_x)
 fig, ax = plt.subplots(figsize=(7, 4))
 
 # Plot the main curve
-ax.plot(x, y, label="ReLU", color="blue", linewidth=2)[cite: 56]
+ax.plot(x, y, label="ReLU", color="blue", linewidth=2)
 
 # Plot the interactive dot based on the user's slider input
 ax.plot(selected_x, calculated_y, 'o', color="darkorange", markersize=8, label="Selected input")
