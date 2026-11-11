@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="ReLU Activation", layout="centered")
 
 st.title("Rectified Linear Unit (ReLU)")
-st.write("ReLU allows only positive values to pass through it. The negative values are mapped to zero."[cite: 56])
+st.write("ReLU allows only positive values to pass through it. The negative values are mapped to zero.")
 
 # Render the mathematical formula
 st.latex(r"f(x) = \max(0, x)")
