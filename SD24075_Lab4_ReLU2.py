@@ -31,9 +31,9 @@ ax.plot(x, y, label="ReLU", color="blue", linewidth=2)
 ax.plot(selected_x, calculated_y, 'o', color="darkorange", markersize=8, label="Selected input")
 
 # Chart formatting
-ax.set_title("ReLU Activation Function")[cite: 56]
-ax.set_xlabel("Input (x)")[cite: 56]
-ax.set_ylabel("Output (y)")[cite: 56]
+ax.set_title("ReLU Activation Function")
+ax.set_xlabel("Input (x)")
+ax.set_ylabel("Output (y)")
 ax.grid(color='lightgray', linestyle='-', linewidth=0.5)
 ax.axhline(0, color='gray', linewidth=0.8) 
 ax.legend()
